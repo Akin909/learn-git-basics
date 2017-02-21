@@ -1,4 +1,6 @@
 # Git Command Cheat Sheet
+##### Checkout a branch and move onto it
+      git checkout -b <new branch name>
 
 ##### Cloning your remote directory
 		git clone <remote directory>
