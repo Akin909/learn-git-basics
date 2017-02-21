@@ -1,4 +1,6 @@
 # Git Command Cheat Sheet
+##### Checkout a branch and move onto it
+      git checkout -b <new branch name>
 
 ##### Cloning your remote directory
         git clone <remote directory>
@@ -8,9 +10,11 @@
 
 ##### Pulling down all branches in a remote repo, not just the default branch
         git fetch --all
-
 ##### Creating a new branch for you to work on
         git branch <new branch name>
+
+##### See all branches in your remote repository
+		git branch -a
 
 ##### Moving onto a branch
         git checkout <branch name>
@@ -20,9 +24,6 @@
 
 ##### Moving your changes to the staging area
         git add <file name>
-
-##### Committing your changes
-        git commit -m '<commit message here>'
 
 ##### Pushing your commit to the remote repository
         git push origin <branch name>
@@ -35,3 +36,6 @@
 
 ##### Pulling remote changes into your local repo
         git pull origin <branch name>
+##### Moving files while preserving git history
+		git mv <source> <destination>
+ 
